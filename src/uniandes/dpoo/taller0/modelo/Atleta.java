@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
+/** HOLA
  * Esta clase encapsula la información sobre los atletas y calcula algunas cosas
  * sobre sus resultados.
  */
