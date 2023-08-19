@@ -22,7 +22,7 @@ public class ConsolaOlimpicos
 	 */
 	private CalculadoraEstadisticas calculadora;
 
-	/**
+	/**HOLA
 	 * Ejecuta la aplicación: le muestra el menú al usuario y la pide que ingrese
 	 * una opción, y ejecuta la opción seleccionada por el usuario. Este proceso se
 	 * repite hasta que el usuario seleccione la opción de abandonar la aplicación.
