@@ -15,16 +15,15 @@ public class Modificacion {
 	
 	
 	try {
-        // Carga el archivo 
+
         CalculadoraEstadisticas calc = LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
-        
-        // Imprime el país con más medallistas 
         System.out.println(calc.paisConMasMedallistas());
     } catch (IOException e) {
-        System.err.println("Error al cargar el archivo: " + e.getMessage());
+        System.err.println("Error" + e.getMessage());
     }
 }
 	
 	
 	
 }
+	
