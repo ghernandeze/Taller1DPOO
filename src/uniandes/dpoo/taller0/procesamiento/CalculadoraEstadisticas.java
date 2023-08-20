@@ -444,4 +444,19 @@ public class CalculadoraEstadisticas
 		return nombres;
 	}
 
+	public String PaisAtleta (String nombree) {
+		
+		Atleta objetoAtleta = buscarAtleta(nombree);
+		
+		Pais objetoPais = objetoAtleta.darPais();
+		
+		String pais = objetoPais.darNombre();
+		
+		return pais;
+	}
+	
 }
+
+
+
+

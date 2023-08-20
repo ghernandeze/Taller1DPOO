@@ -62,6 +62,11 @@ public class ConsolaOlimpicos
 					ejecutarMedallistasPorNacionYGenero();
 				else if (opcion_seleccionada == 12 && calculadora != null)
 					ejecutarPorcentajeMedallistas();
+
+				else if (opcion_seleccionada == 14 && calculadora != null) {
+					String nombreAtleta = input("Escribe el nombre del atleta del cual quieres saber el país: ");
+					ejecutarPaisNombre(nombreAtleta);
+				}
 				else if (opcion_seleccionada == 13)
 				{
 					System.out.println("Saliendo de la aplicación ...");
@@ -103,6 +108,7 @@ public class ConsolaOlimpicos
 		System.out.println("11. Consultar los medallistas por país y género");
 		System.out.println("12. Consultar el porcentaje de atletas que son medallistas");
 		System.out.println("13. Salir de la aplicación\n");
+		System.out.println("14. Consultar país de un atleta\n");
 	}
 
 	/**
@@ -433,4 +439,15 @@ public class ConsolaOlimpicos
 		consola.ejecutarAplicacion();
 	}
 
+	private void ejecutarPaisNombre(String nombree) {
+		
+		String pais = calculadora.PaisAtleta(nombree);
+		System.out.println("El pais al cual pertenece este atleta es: " + pais);
+		
+	}
+	
+	
+	
 }
+
+
